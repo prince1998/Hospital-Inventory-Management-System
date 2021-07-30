@@ -2,7 +2,7 @@
 .heading { padding-top: 65px; }
 
 
-
+/* Navigation Bar Styling */
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -29,6 +29,7 @@
     margin-top:50px;
 }
 
+/* Table Styling in Home Page */
 tr:nth-child(even){
     background-color:#a1e0f7;
 }
@@ -86,7 +87,6 @@ img{
 }
 
 /* Quantity Counter Styling */
-/*apply css properties to button tag*/
   
 .quantityButton {
     width: 30px;
@@ -96,14 +96,14 @@ img{
     color: honeydew;
 }
   
-/*apply hover effect to button tag*/
+/*applying hover effect to button tag*/
   
 .quantityButton:hover {
     background-color: #dc3545;
     color: grey;
 }
   
-/*apply css properties to h2 tag*/
+/*applying css properties to h2 tag*/
   
 #counting0,#counting1,#counting2,#counting3,#counting4,#counting5,#counting6,#counting7,#counting8{
     color: black;
