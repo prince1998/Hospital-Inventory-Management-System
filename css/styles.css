@@ -86,6 +86,14 @@ img{
     border-bottom-right-radius: 20px;
 }
 
+/* In stock and not in stock of product styling */
+.in-stock{
+    color:green;
+}
+.not-in-stock{
+    color:red;
+}
+
 /* Quantity Counter Styling */
   
 .quantityButton {
@@ -105,9 +113,11 @@ img{
   
 /*applying css properties to h2 tag*/
   
+/* Styling heading counter */
 #counting0,#counting1,#counting2,#counting3,#counting4,#counting5,#counting6,#counting7,#counting8{
     color: black;
     margin: 0 50px;
     font-size: 12px;
 }
+
 
