@@ -22,6 +22,7 @@
   }
 
 .home-container{
+    margin-top:100px;
 }
 
 .upcoming-orders-heading{
@@ -83,3 +84,30 @@ img{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+/* Quantity Counter Styling */
+/*apply css properties to button tag*/
+  
+.quantityButton {
+    width: 30px;
+    height: 20px;
+    font-size: 3px;
+    background-color:  #fb3531;
+    color: honeydew;
+}
+  
+/*apply hover effect to button tag*/
+  
+.quantityButton:hover {
+    background-color: #dc3545;
+    color: grey;
+}
+  
+/*apply css properties to h2 tag*/
+  
+#counting0,#counting1,#counting2,#counting3,#counting4,#counting5,#counting6,#counting7,#counting8{
+    color: black;
+    margin: 0 50px;
+    font-size: 12px;
+}
+
